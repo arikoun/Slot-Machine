@@ -47,6 +47,8 @@ public class Score_manager : MonoBehaviour
             SoundManager.Instance.playsound(4);
             SoundManager.Instance.playsound(5);
 
+            failed_attempts = 0;
+
             switch(num1)
             {
                 case 0 :// seven
