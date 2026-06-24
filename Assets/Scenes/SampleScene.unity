@@ -699,6 +699,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b72201a987173d14a8e37055b4cd8bb5, type: 3}
   - {fileID: 8300000, guid: b20d39a1e24467c4c909ceef8c27ac4f, type: 3}
   - {fileID: 8300000, guid: 476c4fbdd20474d499e9ebb2f33b7448, type: 3}
+  - {fileID: 8300000, guid: 7d1f05f594fcf4b499199db5699a3460, type: 3}
+  - {fileID: 8300000, guid: 43d1a20d32010f2408b93c436e8e290e, type: 3}
+  - {fileID: 8300000, guid: 4354d9b133afb9847b2208747737f5ab, type: 3}
+  - {fileID: 8300000, guid: f34a9d466ebdd3e4f95cadaf72a29357, type: 3}
 --- !u!1 &376413197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3096315803468075865, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
@@ -3966,29 +3970,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2883529364770745457, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3096315803468075865, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
       propertyPath: m_Name
       value: Slot_Machine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3096315803468075865, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5744734466429996240, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8547933416699649134, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003752015363627466, guid: 8b0c77b4bdeb3d64fb63e87c9556882b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
