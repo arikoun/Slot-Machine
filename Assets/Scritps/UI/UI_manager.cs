@@ -1,8 +1,4 @@
-using System;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class UI_manager : MonoBehaviour
 {
@@ -11,7 +7,7 @@ public class UI_manager : MonoBehaviour
     [SerializeField] GameObject[] gamecomponents;
     [SerializeField] GameObject Pausescreen;
 
-    [SerializeField] bool pause = false;
+    [SerializeField] bool ispaused = false;
 
     void Start()
     {
@@ -39,25 +35,25 @@ public class UI_manager : MonoBehaviour
     // function to pause the game
     public void Pause()
     {
-        if (!pause)
+        if (!ispaused)
         {
             SoundManager.Instance.playsound(2);
             SoundManager.Instance.pausesound();
             Pausescreen.SetActive(true);
             Time.timeScale = 0;
-            pause = true;
+            ispaused = true;
         }
     }
     // function to resume the game from pause state
     public void Resume()
     {
-        if (pause)
+        if (ispaused)
         {
             SoundManager.Instance.playsound(2);
             SoundManager.Instance.Resumesound();
             Pausescreen.SetActive(false);
             Time.timeScale = 1;
-            pause = false;
+            ispaused = false;
         }
     }
 }
